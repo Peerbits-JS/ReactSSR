@@ -8,8 +8,8 @@
         },
         "/contact": {
             title: "Blogs Contact",
-            description: " Sign in Page ",
-            ogDescription: "description for the page",
+            description: "Contact Page ",
+            ogDescription: "Contact for blogs",
             keywords:"content writers,blog writers"
         
         },

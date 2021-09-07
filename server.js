@@ -67,7 +67,8 @@ app.get(['/', '/:current'], async (request, response) => {
       if (meta?.keywords) {
       placeData += `<meta keywords="keywords" content="${meta.keywords}" data-react-helmet="true"/>`
       }
-      data.replace('<meta name="replacable" content="none"/>', placeData);
+    data = data.replace('<meta name="replacable" content="none"/>', placeData);
+    console.log("Replacebale", data);
       response.send(data);
   });
 });
